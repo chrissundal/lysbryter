@@ -76,7 +76,7 @@
         <div id="bulb" class="bulb"></div>
     </div>
     <div class="bryter">
-        <div class="knapp" onclick="lights()">
+        <div class="knapp" onclick="toggleLights()">
             <div id="on"></div>
             <div id="off">OFF</div>
         </div>
@@ -84,12 +84,9 @@
     <script>
         let lightSwitch = true;
 
-        function lights() {
-            lightSwitch = !lightSwitch;
-            toggleLights();
-        }
         function toggleLights() {
-
+            lightSwitch = !lightSwitch;
+            
             if (lightSwitch == true) {
                 turnOff();
             } else {
