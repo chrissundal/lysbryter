@@ -1,0 +1,61 @@
+#lys {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sokkel {
+    position: absolute;
+    padding: 20px 12px;
+    margin-top: 300px;
+    height: 30px;
+    width: 25px;
+    background-color: silver;
+    border: 2px solid gray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.bulb {
+    margin-top: 200px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: grey;
+    border: 2px solid darkgray;
+    position: absolute;
+}
+
+.bryter {
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+    border: 2px solid black;
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.knapp {
+    text-align: center;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#off {
+    margin-top: 80px;
+}
+
+#on {
+    margin-top: 5px;
+}
+
+#body {
+    background-color: black;
+}
